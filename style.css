@@ -93,6 +93,7 @@ font-size: 10px;
 
 /* contact page */
 form {
+    color: aliceblue;
     margin-top: 100px;
     margin-left: 150px;
     margin-right: 50px;
@@ -101,13 +102,7 @@ form {
 height: 170px ;
 }
 
-p {
-    
-    line-height: 30px;
-    margin-top: 150px;
-    margin-right: 350px;
-    margin-left: 50px;
-}
+
 
 
 /* portfolio */
@@ -118,9 +113,14 @@ p {
     width: 30%;
     height: 20%;
     opacity: 90%;
-
 }
-
+p {
+    
+    line-height: 30px;
+    margin-top: 150px;
+    margin-right: 350px;
+    margin-left: 50px;
+}
 
 /* media queries responsive breakpoints  */
 
@@ -170,8 +170,9 @@ p {
     /* footer */
 
     footer {
+        
         font-size: 8px;
-        margin-top:50px;
+        margin-top:130px;
     }
     
     .footer-li {
@@ -186,7 +187,8 @@ p {
     .text-footer {
         display: inline;
         color: beige;
-        margin-right: 0;
+        margin-left: 110px;
+        margin-right: 100px;
         font-size: 6px;
     }
     .footer-items {
@@ -201,7 +203,7 @@ p {
     margin-right: 10px;
     width: 20%;
     height: 10%;
-    opacity: 90%;
+    
 }
 
 
@@ -214,9 +216,30 @@ form {
     margin-right: 10px;
 }
 #message-space {
-height: 50px ;
+   height: 70px ;
+}
+#inputEmail4 {
+    height: 25px;
+
+}
+#nameform {
+    height: 25px;
 }
 
+#contactfooter {
+    margin-top: 90px;
+}
+
+
+/* portfolio */
+
+.portfolio-items {
+    display: list-item;
+    margin-left: 135px;
+    margin-top: 70px;
+    width: 10%;
+    height: 5%;
+}
 p {
     
     line-height: 10px;
@@ -227,17 +250,260 @@ p {
 }
 
 
+}
+
+/*  reponsive media queries 768px */
+
+
+@media (max-width: 768px) { 
+    body {
+        font-size: 16px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    /* navbar */
+
+    .nav-header {
+        display: inline;
+    }
+
+    #signature {
+        margin-left: 20px;
+        margin-right: 0;
+        width: 50x;
+        height:25px ;
+    }
+    
+    #name {
+        margin-left: 30px;
+        margin-top: 10[x];
+        margin-right: 10px;
+    }
+    .nav-item {
+        margin-left: 10px;
+        display: inline;
+    
+    }
+    
+    h3 {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    
+
+    /* footer */
+
+    footer {
+        
+        font-size: 10px;
+        margin-top:200px;
+    }
+    
+    .footer-li {
+        margin-left: 3px;
+        display: inline;
+    }
+    .footer-ul {
+       list-style-type: none;
+       padding: 0;
+    
+    }
+    .text-footer {
+        display: inline;
+        color: beige;
+        margin-left: 140px;
+        margin-right: 100px;
+        font-size: 6px;
+    }
+    .footer-items {
+       margin-left:20px ;
+    }
+    
+    /* About page */
+.rounded-circle {
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 10px;
+    width: 20%;
+    height: 10%;
+    
+}
+
+
+
+
+/* contact page */
+form {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+#message-space {
+   height: 70px ;
+}
+#inputEmail4 {
+    height: 25px;
+
+}
+#nameform {
+    height: 25px;
+}
+
+#contactfooter {
+    margin-top: 155px;
+}
+
+
 /* portfolio */
 
 .portfolio-items {
     display: list-item;
-    margin-left: 70px;
+    margin-left: 165px;
     margin-top: 70px;
     width: 10%;
     height: 5%;
+}
+p {
     
-
+    line-height: 17px;
+    color: black;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
 }
 
 
+
+/*  reponsive media queries 768px */
+
+
+@media (max-width: 980px) { 
+    body {
+        font-size: 16px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    /* navbar */
+
+    .nav-header {
+        display: inline;
+    }
+
+    #signature {
+        margin-left: 20px;
+        margin-right: 0;
+        width: 50x;
+        height:25px ;
+    }
+    
+    #name {
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .nav-item {
+        margin-left: 10px;
+        display: inline;
+    
+    }
+    
+    h3 {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    
+
+    /* footer */
+
+    footer {
+        
+        font-size: 10px;
+        margin-top:200px;
+    }
+    
+    .footer-li {
+        margin-left: 20px;
+        display: inline;
+    }
+    .footer-ul {
+       list-style-type: none;
+       padding: 0;
+    
+    }
+    .text-footer {
+        display: inline;
+        color: beige;
+        margin-left: 290px;
+        margin-right: 100px;
+        font-size: 6px;
+    }
+    .footer-items {
+       margin-left:140px ;
+    }
+    
+    /* About page */
+.rounded-circle {
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 10px;
+    width: 20%;
+    height: 10%;
+    
+}
+
+
+
+
+/* contact page */
+form {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+#message-space {
+   height: 70px ;
+}
+#inputEmail4 {
+    height: 25px;
+
+}
+#nameform {
+    height: 25px;
+}
+
+#contactfooter {
+    margin-top: 520px;
+}
+
+
+/* portfolio */
+
+.portfolio-items {
+    display: list-item;
+    margin-left: 340px;
+    margin-top: 70px;
+    width: 10%;
+    height: 5%;
+}
+p {
+    
+    line-height: 25px;
+    color: black;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
 }
