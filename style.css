@@ -6,11 +6,11 @@ body {
 
 }
 /* navbar */
-
+.nav-links{
+    display: -webkit-inline-box;
+}
 
 #signature {
-    margin-left: 300px;
-    margin-right: 30px;
     opacity: 50%;
     width: 110px;
     height:50px ;
@@ -19,27 +19,20 @@ body {
 #name {
     color: black;
     font-family: 'kauchan script',cursive;
-    margin-top: 10px;
-    margin-right: 300px;
+   
 }
 .nav-item {
-    color: azure;
+    color:blue;
 
 }
+/* page content */
 
-h3 {
-    color: rgba(212, 0, 255, 0.377);
-    margin-top: 100px;
-    margin-left: 150px;
-}
-
-.header-hr {
-    margin-left: 120px;
-    margin-right: 1250px;
-    background-color: rgba(248, 240, 255, 0.24);
+h3 {margin-top: 60px;
+    color: aquamarine;
+   
 }
 a:hover {
-    color:grey;
+    color:black;
 }
 
 
@@ -50,7 +43,7 @@ background-color: wheat;
 }
  footer {
     font-size: 16px;
-    margin-top:300px;
+    margin-top:100px;
 }
 
 .footer-li {
@@ -63,15 +56,16 @@ background-color: wheat;
 
 }
 .text-footer {
-color: beige;
-margin-right: 400px;
-margin-top: 0;
-font-family: Arial, Helvetica, sans-serif;
-text-align: center;
-font-size: 10px;
+    color: beige;
+    margin-right: 235px;
+    margin-top: -25px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 10px;
 }
 .footer-items {
-   margin-left:320px ;
+   margin-left:195px ;
 }
 
 
@@ -80,47 +74,40 @@ font-size: 10px;
 /* About page */
 .rounded-circle {
     float: left;
-    margin-left: 300px;
-    margin-top: 100px;
-    margin-right: 50px;
+    margin-left: 161px;
+    margin-right: 20px;
+    margin-top: 80px;
     width: 20%;
     height: 10%;
     opacity: 90%;
 }
-
-
-
-
+p {
+    color: black;
+    margin-right: 96px;
+    margin-top: 107px;
+    line-height: 56px;
+}
 /* contact page */
 form {
     color: aliceblue;
-    margin-top: 100px;
-    margin-left: 150px;
-    margin-right: 50px;
+    margin-top: 50px;
+   
 }
 #message-space {
 height: 170px ;
 }
-
-
-
-
 /* portfolio */
-
 .portfolio-items {
-    margin-left: 500px;
-    margin-top: 100px;
-    width: 30%;
-    height: 20%;
+    margin-top: 50px;
+    width: 37%;
+    height: 100%;
     opacity: 90%;
+    margin-left: 350px;
 }
-p {
-    
-    line-height: 30px;
-    margin-top: 150px;
-    margin-right: 350px;
-    margin-left: 50px;
+.portfolio-item{
+    margin-bottom: 30px;
 }
+
 
 /* media queries responsive breakpoints  */
 
@@ -170,7 +157,6 @@ p {
     /* footer */
 
     footer {
-        
         font-size: 8px;
         margin-top:130px;
     }
@@ -225,11 +211,6 @@ form {
 #nameform {
     height: 25px;
 }
-
-#contactfooter {
-    margin-top: 90px;
-}
-
 
 /* portfolio */
 

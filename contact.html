@@ -8,18 +8,18 @@
     <title>Homepage</title>
 </head>
 <body>
-  <nav>
-    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-        <img src="signature.jpg" id="signature" alt="Amin's signature"/>
-        <h4 id="name">Amin Bouzouita</h4>
-      <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="nav-home" aria-selected="true">About</a>
-      <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="portfolio.html" role="tab" aria-controls="nav-profile" aria-selected="true">Portfolio</a>
-      <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="contact.html" role="tab" aria-controls="nav-contact" aria-selected="true">Contact</a>
-    </div>
-  </nav>
+  <div class="container">
+    <nav class="navbar"> 
+        <img src="signature.jpg" class="navbar-brand" id="signature" alt="Amin's signature"/>
+        <h4 id="name" class="navbar-brand">Amin Bouzouita</h4>
+       <div class="col-2 nav-links">
+        <a class="nav-link" id="index" href="index.html">About</a>
+        <a class="nav-link" id="portfolio" href="portfolio.html">Portfolio</a>
+        <a class="nav-link" id="contact" href="contact.html">Contact</a>
+       </div>
+    </nav>
       
-      <h3>Contact</h3>
-      <hr class="header-hr">
+      <h3><u>Contact</u></h3>
       <form>
         <div class="row">
           <div class="form-group col-md-12">
@@ -56,7 +56,7 @@
         </div>
     </footer>
 
-      
+  </div>    
 
 
       

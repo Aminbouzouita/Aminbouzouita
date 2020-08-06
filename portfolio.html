@@ -8,23 +8,23 @@
     <title>Homepage</title>
 </head>
 <body>
-    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-        <img src="signature.jpg" id="signature" alt="Amin's signature"/>
-        <h4 id="name">Amin Bouzouita</h4>
-      <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="nav-home" aria-selected="true">About</a>
-      <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="portfolio.html" role="tab" aria-controls="nav-profile" aria-selected="true">Portfolio</a>
-      <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="contact.html" role="tab" aria-controls="nav-contact" aria-selected="true">Contact</a>
+    <div class="container">
+        <nav class="navbar"> 
+            <img src="signature.jpg" class="navbar-brand" id="signature" alt="Amin's signature"/>
+            <h4 id="name" class="navbar-brand">Amin Bouzouita</h4>
+           <div class="col-2 nav-links">
+             <a class="nav-link" id="index" href="index.html">About</a>
+             <a class="nav-link" id="portfolio" href="portfolio.html">Portfolio</a>
+             <a class="nav-link" id="contact" href="contact.html">Contact</a>
+           </div>
+        </nav>
+      <h3><u>Portfolio</u></h3>
+    <div class="row justify-content-center">
+        <div class="col-12 portfolio-item"><a href="https://aminbouzouita.github.io/BootCamp-Project/" target="-blank"><img src="project.png" class="portfolio-items" alt="Amin's bio"></a></div>
+        <div class="col-12 portfolio-item"><a href="https://aminbouzouita.github.io/WeatherDashboard/" target="-blank"><img src="weatherdashbord.png" class="portfolio-items" alt="Amin's prework"></a></div>
+        <div class="col-12 portfolio-item"><a href="https://aminbouzouita.github.io/Day-planner/" target="-blank"><img src="dayplanner.png" class="portfolio-items" alt="Amin's refactor homework"></a></div>
     </div>
-  </nav>
-      
-      <h3>Portfolio</h3>
-      <hr class="header-hr">
-      <a href="https://aminbouzouita.github.io/" target="-blank"><img src="bio.png" class="portfolio-items" alt="Amin's bio"></a>
-      <a href="https://aminbouzouita.github.io/prework-about-me/" target="-blank"><img src="prework.png" class="portfolio-items" alt="Amin's prework"></a>
-      <a href="https://aminbouzouita.github.io/refactor-homework/" target="-blank"><img src="refactor-homework.png" class="portfolio-items" alt="Amin's refactor homework"></a>
-
-
-      <footer>
+    <footer>
         <hr class="footer-hr">
         <div class="footer-items">
         <ul class="footer-un">
@@ -37,9 +37,8 @@
         <p class="text-footer">Copyright &copy; 2020</p> 
         </div>
     </footer>
-
-
-
+</div>
+  
       
 </body>
 </html>
